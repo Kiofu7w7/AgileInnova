@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="contenedor">
+    </div>
+</body>
+<script src="DOM.js"></script>
+<style>
+    #contenedor {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .pelicula {
+        flex-basis: calc(20% - 10px);
+        margin-bottom: 10px;
+    }
+
+    .pelicula img {
+        width: 100%;
+        height: auto;   
+    }
+</style>
+</html>
